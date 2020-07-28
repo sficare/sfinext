@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sfinext *.css
+recursive-include sfinext *.csv
+recursive-include sfinext *.html
+recursive-include sfinext *.ico
+recursive-include sfinext *.js
+recursive-include sfinext *.json
+recursive-include sfinext *.md
+recursive-include sfinext *.png
+recursive-include sfinext *.py
+recursive-include sfinext *.svg
+recursive-include sfinext *.txt
+recursive-exclude sfinext *.pyc
